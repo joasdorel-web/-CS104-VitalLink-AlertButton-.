@@ -12,7 +12,7 @@ try:
         if GPIO.input(7) == GPIO.HIGH and not button_pressed
             requests.post(https://api.telegram.org/bot8689797815:AAHr3n6AjI4aAbktz9F0hiwDpsCy5PdPU5w/sendMessage, json={
     "chat_id": "6567316346",
-    "text": "Someone pressed the alert button!
+    "text": "Someone pressed the alert button!"
 }
             print("Someone pressed the alert button!")
             button_pressed = True
